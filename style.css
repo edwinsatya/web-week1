@@ -218,3 +218,37 @@ body, html {
 
 
 /*------------------css melvin------------------*/
+
+.gallery {
+  background-image: url(image/bggallery2.jpg);
+  background-position: center;
+}
+
+.mainTable {
+  /*border: 1px solid rgb(221, 163, 109);*/
+
+  margin: 0 auto;
+  margin-top: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
+
+.productImage {
+  width: 800px;
+  position: center;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.product {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 400px;
+}
+
+.productDetail {
+  min-width: 400px;
+  max-width: 800px;
+  padding: 0px 0px 0px 20px;
+}
