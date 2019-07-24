@@ -8,7 +8,7 @@ body, html {
 
 .homepage {
     background-image: url('image/Home.jpg');
-    position: center;
+    position: relative;
     height: 100%;
     width: 100%;
     background-position: center;
@@ -227,19 +227,19 @@ body, html {
   text-rendering: optimizeLegibility;
 }
 
-body {
+/*body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 100;
   font-size: 12px;
   line-height: 30px;
   color: #777;
   background: #4CAF50;
-}
+}*/
 
 .container {
   max-width: 400px;
   width: 100%;
-  margin: 0 auto;
+  margin: 50px auto;
   position: relative;
 }
 
@@ -255,7 +255,7 @@ body {
 #contact {
   background: #F9F9F9;
   padding: 25px;
-  margin: 150px 0;
+  margin: 0;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
