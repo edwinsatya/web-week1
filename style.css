@@ -1,0 +1,220 @@
+/*------------------css edwin------------------*/
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: black;
+}
+
+.homepage {
+    background-image: url('image/Home.jpg');
+    position: center;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.homepage h2 {
+    margin-left: 350px;
+    margin-right: 0px;
+    font-size: 80px;
+    display: inline;
+    color: whitesmoke;
+    font-family: 'Lobster', cursive;
+}
+/*----------button styles----------*/
+.button {
+    margin: 50px 500px;
+    padding: 50px 50px;
+    
+}
+
+/*.button .link-button1 {
+    font-family: 'Righteous';
+    text-align: center;
+    background: whitesmoke;
+    color:white;
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    border-bottom:8px solid gray;
+    padding:10px 20px;
+    text-decoration: none;
+    font-size:15pt;
+    border-radius: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+} */
+
+.link-button1 {
+    font-family: 'Righteous';
+    border-radius: 4px;
+    background-color: Gray;
+    border: none;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.link-button2 {
+    font-family: 'Righteous';
+    border-radius: 4px;
+    background-color: Gray;
+    border: none;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.link-button3 {
+    font-family: 'Righteous';
+    border-radius: 4px;
+    background-color: Gray;
+    border: none;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.link-button4 {
+    font-family: 'Righteous';
+    border-radius: 4px;
+    background-color: whitesmoke;
+    border: none;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px 10px 10px 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0px;
+}
+  
+  .link-button1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    color: whitesmoke;
+  }
+
+  .link-button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    color: whitesmoke;
+  }
+
+  .link-button3 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    color: whitesmoke;
+  }
+  
+  .link-button4 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    color: gray;
+  }
+
+  .link-button1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .link-button2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .link-button3 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .link-button4 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 0;
+    top: -20px;
+    transition: 0.5s;
+  }
+
+  .link-button1:hover span {
+    padding-right: 25px;
+  }
+
+  .link-button2:hover span {
+    padding-right: 25px;
+  }
+
+  .link-button3:hover span {
+    padding-right: 25px;
+  }
+
+  .link-button4:hover span {
+    padding-left: 25px;
+  }
+  
+  .link-button1:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .link-button2:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .link-button3:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .link-button4:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+/*------------------css khairul------------------*/
+
+
+
+
+/*------------------css melvin------------------*/
