@@ -36,27 +36,51 @@
     </section>
     <!--------------menu contact-------------->
     <section id="contact">
-        <div class="container">  
-            <form id="contact" action="" method="post">
-              <h3>Contact Us</h3>
-              <fieldset>
-                <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-              </fieldset>
-              <fieldset>
-                <input placeholder="Your Email Address" type="email" tabindex="2" required>
-              </fieldset>
-              <fieldset>
-                <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
-              </fieldset>
-              <fieldset>
-                <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
-              </fieldset>
-              <fieldset>
-                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-              </fieldset>
-              <p class="copyright">Designed by <a href="https://bamboohouse.com" target="_blank" >Bamboo House</a><p>
-            </form>
-          </div>
+      <form id="overlay" action="" method="GET">
+        <h1>Contact Us</h1>
+        <table>
+          <tr>
+            <td> <label for="name">Name</label></td>
+          <td>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="email">Email</label>
+            </td>
+          <td>
+              <input type="email" id="email" name="email" placeholder="Your email" required>  
+          </td>
+          </tr>
+
+          <tr>
+            <td> 
+              <label for="phone">Phone</label>
+            </td>
+          <td>
+              <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+          </td>
+          </tr>
+
+          <tr>
+          <td>
+              <label for="message">Message</label>
+          </td>
+            <td>
+          <textarea id="message" name="message" rows="8" cols="40" placeholder="Write something" required></textarea>
+            </td>
+          </tr>
+
+          <tr> 
+            <td colspan="2">
+          <input type="submit" value="Send">
+            </td>
+          </tr>
+
+        </table>
+      </form>
     </section>
     </body>
 </html>
