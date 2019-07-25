@@ -298,21 +298,16 @@ input[type=submit]:hover{
 
 /* -------action--------- */
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
-body{
-  line-height: 0;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background: #EEEEEE;
-}
+
 .wrapper{
+  background-color: white;
   position: absolute;
   width: 100%;
   top: 50%;
   bottom: 50%;
   filter: contrast(10);
 }
-h1{
+h1.text1,h1.text2{
   font-family: 'Fredoka One', cursive;
   width: 100%;
   text-align: center;
