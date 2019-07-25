@@ -353,7 +353,7 @@ input[type=submit]:hover{
 .productDetail {
   color: burlywood;
   background-color: rgba(0,0,0,0.5);
-  max-width: 60%;
+  max-width: 50%;
   min-width: 250px;
   height: 320px;
   margin: 0px;
