@@ -341,7 +341,7 @@ input[type=submit]:hover{
   max-width: 500px;
   max-height: 400px;
   min-width: 400px;
-  margin: 20px 20px auto;
+  margin: 20px 20px;
   float: left;
 }
 
@@ -355,7 +355,7 @@ input[type=submit]:hover{
   max-width: 500px;
   min-width: 250px;
   max-height: 400px;
-  margin: 20px auto;
+  margin: 20px;
   padding: 20px;
   float: center;
   width: 50%;
