@@ -253,6 +253,7 @@ input[type=text],input[type=email],input[type=tel],textarea{
   margin-bottom: 6px;
   resize: vertical;
   width: 350px;
+  border-radius: 10px;
 }
 
 input[type=submit]{
@@ -262,6 +263,7 @@ input[type=submit]{
   border: none;
   cursor: pointer;
   width: 200px;
+  border-radius: 40px;
   /* width: 100%; */
 }
 
