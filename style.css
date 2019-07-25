@@ -8,7 +8,7 @@ body, html {
 
 .homepage {
     background-image: url('image/Home.jpg');
-    position: relative;
+    position: center;
     height: 100%;
     width: 100%;
     background-position: center;
