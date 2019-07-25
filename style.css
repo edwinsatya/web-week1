@@ -304,8 +304,9 @@ input[type=submit]:hover{
 .gallery {
   background-image: url(image/bggallery2.jpg);
   min-height: 400px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0;
 }
 
 /* @media screen and (max-width: 600px) {
@@ -317,6 +318,7 @@ input[type=submit]:hover{
 
 .item {
   display: inline-block;
+  padding: 0px auto;
 }
 
 .productContainer {
@@ -355,7 +357,7 @@ input[type=submit]:hover{
   max-width: 500px;
   min-width: 250px;
   max-height: 400px;
-  margin: 20px auto;
+  margin: 30px auto;
   padding: 20px;
   float: center;
   width: 50%;
