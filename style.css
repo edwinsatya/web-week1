@@ -303,6 +303,75 @@ h1.action{
 
 
 
-
-
 /*------------------css melvin------------------*/
+.gallery {
+  background-image: url(image/bggallery2.jpg);
+  min-height: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* @media screen and (max-width: 600px) {
+  .productContainer, .productImage, .productDetail {   
+    width: 100%;
+    padding: 0;
+  }
+} */
+
+.item {
+  display: inline-block;
+}
+
+.productContainer {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: auto;
+  height: 100%;
+  margin: 0 0;
+  padding: 0;
+  overflow: auto;
+}
+
+.productContainer h1 {
+  color: burlywood;
+  text-align: right;
+}
+
+.productContainer p {
+  text-align: justify;
+}
+
+.item .productImage {
+  max-width: 500px;
+  max-height: 400px;
+  min-width: 400px;
+  margin: 20px 100px;
+  float: left;
+  transition: transform .2s;
+}
+
+.item .productImage :hover {
+  transform: scale(1.5);
+}
+
+.productDetail {
+  color: burlywood;
+  background-color: rgba(0,0,0,0.5);
+  max-width: 60%;
+  min-width: 250px;
+  height: 320px;
+  margin: 0px;
+  padding: 50px;
+  float: center;
+  width: 50%;
+  border-radius: 10px;
+  overflow: auto;
+  position: relative;
+}
+
+/* .productPrice {
+  color: white;
+  background-color: rgba(67, 160, 72, 0.452);
+  text-align: right;
+  position: absolute;
+  bottom: 5%;
+} */
