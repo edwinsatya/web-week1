@@ -358,37 +358,51 @@ fieldset {
 
 
 /*------------------css melvin------------------*/
-
 .gallery {
   background-image: url(image/bggallery2.jpg);
-  background-position: center;
+  min-height: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.mainTable {
-  /*border: 1px solid rgb(221, 163, 109);*/
+@media screen and (max-width: 600px) {
+  .productContainer, .productImage, .productDetail {   
+    width: 100%;
+    padding: 0;
+  }
+}
 
+.productContainer {
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 1000px;
   margin: 0 auto;
-  margin-top: 10px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: white;
 }
 
 .productImage {
-  width: 800px;
-  position: center;
-  margin: 0 auto;
-  background-color: rgba(0, 0, 0, 0.65);
-}
-
-.product {
-  margin-left: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
   max-width: 400px;
+  margin: 20px;
+  float: left;
+  width: 50%;
+  align-self: center;
 }
 
 .productDetail {
-  min-width: 400px;
-  max-width: 800px;
-  padding: 0px 0px 0px 20px;
+  color: burlywood;
+  background-color: rgba(0,0,0,0.5);
+  max-width: 500px;
+  height: 300px;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  float: right;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.productPrice {
+  color: white;
+  background-color: #43A047;
+  text-align: center;
+  vertical-align: bottom;
 }
